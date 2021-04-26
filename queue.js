@@ -1,3 +1,5 @@
+// const LinkedList = require("./linked-list");
+
 /** Node: node for a queue. */
 
 class Node {
@@ -16,7 +18,8 @@ class Queue {
   first = null;
   last = null;
   size = 0;
-
+  // _list = new LinkedList();
+  new = [];
   /** enqueue(val): add new value to end of the queue. Returns undefined. */
 
   enqueue(val) {
